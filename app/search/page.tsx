@@ -5,6 +5,10 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Form, FormField, FormLabel, FormMessage } from '@/components/ui/form'
+
 // This is a mock of the company list. In a real application, you'd fetch this from an API or database.
 const companyList = [
   { name: "1stDibs", linkedinUrl: "http://www.linkedin.com/company/1stdibs" },

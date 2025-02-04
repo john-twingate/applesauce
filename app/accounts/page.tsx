@@ -6,6 +6,9 @@ import { doc, getDoc, updateDoc } from "firebase/firestore"
 import { db } from "../../firebase"
 import { CompanyAccountDetails } from "../../components/company-account-details"
 import type { CompanyAccount } from "../../types/company-account"
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Form, FormField, FormLabel, FormMessage } from '@/components/ui/form'
 
 export default function AccountPage() {
   const [account, setAccount] = useState<CompanyAccount | null>(null)
