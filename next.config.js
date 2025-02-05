@@ -7,9 +7,6 @@ const nextConfig = {
       undici: 'node-fetch'
     };
     return config;
-  },
-  experimental: {
-    serverActions: true
   }
 }
 
