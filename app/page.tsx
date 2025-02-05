@@ -11,6 +11,9 @@ import { Button } from "@/components/ui/button"
 import { signOut } from "firebase/auth"
 import { auth } from "./firebase"
 import Link from "next/link"
+import { getAuth } from 'firebase/auth/compat'
+
+
 
 export default function Home() {
   const [accounts, setAccounts] = useState<CompanyAccount[]>([])
