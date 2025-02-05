@@ -3,11 +3,13 @@
 import { useState, useEffect } from "react"
 import { useParams } from "next/navigation"
 import { doc, getDoc, updateDoc } from "firebase/firestore"
-import { db } from "../../firebase"
-import { CompanyAccountDetails } from "../../components/company-account-details"
+import { db } from "@/firebase"
+import { CompanyAccountDetails } from "@/components/company-account-details"
 import type { CompanyAccount } from "../../types/company-account"
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { Card} from '@/components/ui/card-component'
+
 import { Form, FormField, FormLabel, FormMessage } from '@/components/ui/form'
 
 export default function AccountPage() {
