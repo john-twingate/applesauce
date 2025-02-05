@@ -11,9 +11,6 @@ import { Button } from "@/components/ui/button"
 import { signOut } from "firebase/auth"
 import { auth } from "./firebase"
 import Link from "next/link"
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Form, FormField, FormLabel, FormMessage } from '@/components/ui/form'
 
 export default function Home() {
   const [accounts, setAccounts] = useState<CompanyAccount[]>([])
