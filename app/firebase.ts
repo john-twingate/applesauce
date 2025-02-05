@@ -1,3 +1,5 @@
+import '../polyfills'  // Add this at the top
+
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"
 import { getAuth } from "firebase/auth"
